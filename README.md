@@ -24,4 +24,8 @@ Clone the repository from Github by clicking the green code button, and click co
 Once in your terminal select: git clone git@github.com:DanielaDeMoura/BluHoriseon.git
 
 # License 
+<<<<<<< HEAD
 This project is licensed under the MIT License.
+=======
+This project is licensed under the MIT License.
+>>>>>>> 30940ecd67a7be40d5bb25cafb79ad769f2079c7
