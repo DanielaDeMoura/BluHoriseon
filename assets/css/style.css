@@ -78,59 +78,36 @@ section .float-right {
 aside.benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: #ffffff;
+    text-align: center; /* Center-align the benefits section text */
 }
 
-aside.benefit-lead {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    text-align: left;
 }
 
-aside.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-aside.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-aside.benefit-lead h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-aside .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-aside.benefit-lead img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
-}
-
-aside.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-aside.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    max-width: 100px;
 }
 
 #search-engine-optimization,
