@@ -1,13 +1,16 @@
+/* box-sizing to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background and styling for body */
 body {
     background-color: #d9dcd6;
 }
 
+/*header style, padding, colour, and fonts*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,17 @@ header {
     color: #ffffff;
 }
 
+/*main header style - company name*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*main header style - company name - special class for the "Seo" part which is grey*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Navigation: styles, padding, position, and font*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +37,25 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
+/* nav list items styling*/
 nav ul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* anchor style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* paragraph styling*/
 p {
     font-size: 16px;
 }
 
+/*the big landing image and styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +64,26 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*images to float left*/
 section .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*right floating images*/
 section .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* width and margins for the content section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*side bar styling: margin, font, padding, etc*/
 aside.benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,6 +96,7 @@ aside.benefits {
     text-align: center; /* Center-align the benefits section text */
 }
 
+/*side bar styling*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -95,6 +105,7 @@ aside.benefits {
     text-align: left;
 }
 
+/*side bar headings*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -102,6 +113,7 @@ aside.benefits {
     text-align: center;
 }
 
+/*side bar icons*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -110,6 +122,7 @@ aside.benefits {
     max-width: 100px;
 }
 
+/*main section styling ids*/
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing {
@@ -120,13 +133,14 @@ aside.benefits {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*image styling for the main section*/
 #search-engine-optimization img,
 #online-reputation-management img,
 #social-media-marketing img {
     max-height: 200px;
 }
 
+/*main section headings styling*/
 #search-engine-optimization h2,
 #online-reputation-management h2,
 #social-media-marketing h2 {
@@ -134,6 +148,7 @@ aside.benefits {
     font-size: 36px;
 }
 
+/*style for footer: padding, alignment, and font*/
 footer {
     padding: 30px;
     clear: both;
@@ -141,6 +156,7 @@ footer {
     text-align: center;
 }
 
+/*footer heading styling*/
 footer h2 {
     font-size: 20px;
 }
